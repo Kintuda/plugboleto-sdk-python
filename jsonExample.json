@@ -1,0 +1,105 @@
+{
+    "cedente_cadastro_exemplo": {
+        "CedenteRazaoSocial": "Empresa Ltda",
+        "CedenteNomeFantasia": "Empresa",
+        "CedenteCPFCNPJ": "14868336000185",
+        "CedenteEnderecoLogradouro": "Av. Analista Jucá de Souza",
+        "CedenteEnderecoNumero": "123",
+        "CedenteEnderecoComplemento": "sala 987",
+        "CedenteEnderecoBairro": "Centro",
+        "CedenteEnderecoCEP": "87012345",
+        "CedenteEnderecoCidadeIBGE": "4115200",
+        "CedenteTelefone": "(44) 3033-1234",
+        "CedenteEmail": "cobranca@boleto.com.br"
+    },
+    "conta_exemplo": {
+        "ContaCodigoBanco": "341",
+        "ContaAgencia": "1234",
+        "ContaAgenciaDV": "1",
+        "ContaNumero": "59698",
+        "ContaNumeroDV": "3",
+        "ContaTipo": "CORRENTE",
+        "ContaCodigoBeneficiario": "60473"
+    },
+    "convenio_exemplo": {
+        "ConvenioNumero": "7889604745",
+        "ConvenioDescricao": "Convenio da tecnospeed",
+        "ConvenioCarteira": "109",
+        "ConvenioEspecie": "R$",
+        "ConvenioPadraoCNAB": "400",
+        "ConvenioNumeroRemessa": "1",
+        "ConvenioReiniciarDiariamente": false,
+        "Conta": 168
+    },
+    "boleto_exemplo": [
+        {
+            "CedenteContaNumero": "46480",
+            "CedenteContaNumeroDV": "8",
+            "CedenteConvenioNumero": "78945",
+            "CedenteContaCodigoBanco": "341",
+            "SacadoCPFCNPJ": "08357906000170",
+            "SacadoEmail": "email@sacado.com",
+            "SacadoEnderecoNumero": "987",
+            "SacadoEnderecoBairro": "Centro",
+            "SacadoEnderecoCEP": "87098765",
+            "SacadoEnderecoCidade": "Maringá",
+            "SacadoEnderecoComplemento": "Fundos",
+            "SacadoEnderecoLogradouro": "Rua teste, 987",
+            "SacadoEnderecoPais": "Brasil",
+            "SacadoEnderecoUF": "PR",
+            "SacadoNome": "Teste de Souza",
+            "SacadoTelefone": "4499999999",
+            "SacadoCelular": "44999999999",
+            "TituloDataEmissao": "09/04/2019",
+            "TituloDataVencimento": "09/04/2019",
+            "TituloMensagem01": "Juros de 0,01 ao dia",
+            "TituloMensagem02": "Nao receber apos 30 dias de atraso",
+            "TituloMensagem03": " sujeito a protesto apos 30 dias",
+            "TituloNossoNumero": "30278239",
+            "TituloNumeroDocumento": "321",
+            "TituloValor": "10,00",
+            "TituloLocalPagamento": "Pagável em qualquer banco até o vencimento."
+        }
+    ],
+    "remessa_exemplo": [
+        "rk84psQof"
+    ],
+    "remessa_alteracao_exemplo": {
+        "Tipo": "0",
+        "Boletos": [
+            {
+                "IdIntegracao": "rk84psQof",
+                "TituloDataVencimento": "20/06/2019"
+            }
+        ]
+    },
+    "impressao_exemplo": {
+        "TipoImpressao": "0",
+        "Boletos": [
+            "rk84psQof"
+        ]
+    },
+    "email_exemplo": {
+        "IdIntegracao": [
+            "rk84psQof"
+        ],
+        "EmailNomeRemetente": "Empresa Exemplo",
+        "EmailRemetente": "exemplo@remetente.com.br",
+        "EmailAssunto": "Boleto para pagamento",
+        "EmailConteudoHtml": "true",
+        "EmailMensagem": "Segue o link do boleto:<br> ${linkBoleto}<br>Considere não imprimir este  email.<br><b>Código HTML dentro da Tag</b>",
+        "EmailDestinatario": [
+            "teste@gmail.com"
+        ],
+        "EmailAnexarBoleto": "true"
+    },
+    "baixa_exemplo": ["rk84psQof"],
+    "retorno_exemplo": {
+        "arquivo": "wDAAwMDAwMiAgICAgICAgICAgICAgICAgICAgICAxNzEwMDEzNjYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMDkxOTA3MTcyMDI1OCAgICAgICAgICAgICAgICAgICAgICAgICAyMDA0MTcwMDAwMDAwMDE1MDAwICAgICAgICAgQTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCAgICAgICAgICAgICAgICAgICAgICAgICAgMDAwMDAwMDAwMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDAwMDAwMg0KMSAgICAgICAgICAgIEEwMDBCTzAwMDAwMiAgICAgICAgICAgICAgICAgICAgICAxNzEwMDEzNjYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjgxOTA3MTcyMDI1OCAgICAgICAgICAgICAgICAgICAgICAgICAyMDA0MTcwMDAwMDAwMDE1MDAwICAgICAgICAgQTAwMDAwMDAwMDAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCAgICAgICAgICAgICAgICAgICAgICAgICAgQjEwMDAwMDAwMDIwMTcwNzE5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDAwMDAwMw0KOTI3NDgzNTk4MyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDAwMDAwNA0K"
+    },
+    "descartar_exemplo": [
+        "IdIntegracao1",
+        "IdIntegracao2",
+        "IdIntegracao3"
+    ]
+}
